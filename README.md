@@ -1,81 +1,50 @@
-Lumel Assessment
+# Lumel Assessment
 
-Overview
+## Overview
 
-This project is a hierarchical table visualization tool with interactive data allocation and a pie chart representation. It is built using React.js and Chart.js, powered by Vite for fast development and build processes.
+This project is a **hierarchical table with allocation and variance calculations** integrated with **Chart.js** for visualization. The table allows users to modify values, allocate percentages/values dynamically, and view the impact in real time.
 
-Features
+## Features
 
-Hierarchical table with expandable rows
+✅ **Hierarchical Table** with expandable rows  
+✅ **Dynamic Input Handling** with real-time updates  
+✅ **Allocation System** (percentage & value-based)  
+✅ **Variance Calculation** (absolute & percentage)  
+✅ **Pie Chart Integration** using Chart.js  
+✅ **Styled with SCSS** for modular and maintainable design
 
-Numeric input for modifying row values
+## Tech Stack
 
-Allocation options for percentage and absolute values
+- **React.js 19** – UI Development
+- **Chart.js** & **React-ChartJS-2** – Data Visualization
+- **SCSS Modules** – Styling
+- **Vite** – Fast Development Server
 
-Real-time variance calculation and percentage display
+## Project Structure
 
-Pie chart visualization of data distribution
+📦 lumel_assessment  
+ ┣ 📂 src  
+ ┃ ┣ 📂 components  
+ ┃ ┃ ┣ 📜 Table.jsx  
+ ┃ ┃ ┣ 📜 TableRow.jsx  
+ ┃ ┃ ┣ 📜 NumericInput.jsx  
+ ┃ ┣ 📂 styles  
+ ┃ ┃ ┣ 📜 table.module.scss  
+ ┃ ┣ 📂 data  
+ ┃ ┃ ┣ 📜 tableData.json  
+ ┃ ┣ 📜 App.jsx  
+ ┃ ┣ 📜 main.jsx  
+ ┣ 📜 package.json  
+ ┣ 📜 README.md  
+ ┗ 📜 vite.config.js
 
-Technologies Used
+## Usage
 
-React.js 19 - Frontend library
+-**Modify Values** – Enter a number in the input fields. -**Allocate Percentage or Value** – Click on allocation buttons. -**View Variance Impact** – Variance values update in real-time. -**Analyze Distribution** – Pie chart updates dynamically.
 
-Chart.js & react-chartjs-2 - Chart visualization
+## Dependencies
 
-Vite - Development and build tool
-
-SASS - Styling with SCSS modules
-
-ESLint - Code quality enforcement
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/lumel_assessment.git
-cd lumel_assessment
-
-Install dependencies:
-
-npm install
-
-Run the development server:
-
-npm run dev
-
-Build for production:
-
-npm run build
-
-Preview the production build:
-
-npm run preview
-
-Project Structure
-
-📦 lumel_assessment
-├── 📂 src
-│   ├── 📂 components
-│   │   ├── Table.jsx
-│   │   ├── TableRow.jsx
-│   │   ├── NumericInput.jsx
-│   ├── 📂 data
-│   │   ├── tableData.json
-│   ├── 📂 styles
-│   │   ├── table.module.scss
-│   ├── 📜 main.jsx
-│   ├── 📜 App.jsx
-├── 📜 package.json
-├── 📜 README.md
-
-Usage
-
-Modify row values using the numeric input fields.
-
-Click "Allocate %" or "Allocate Val" to apply modifications.
-
-Observe real-time variance calculations.
-
-View the pie chart reflecting value distribution.
-
-License
+- **React 19**
+- **Chart.js 4**
+- **React-ChartJS-2**
+- **SCSS (Sass Embedded)**
