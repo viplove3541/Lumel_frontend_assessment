@@ -40,8 +40,10 @@ This project is a **hierarchical table with allocation and variance calculations
 
 ## Usage
 
--**Modify Values** – Enter a number in the input fields. -**Allocate Percentage or Value** – Click on allocation buttons. -**View Variance Impact** – Variance values update in real-time. -**Analyze Distribution** – Pie chart updates dynamically.
-
+- **Modify Values** – Enter a number in the input fields.
+- **Allocate Percentage or Value** – Click on allocation buttons.
+- **View Variance Impact** – Variance values update in real-time.
+- **Analyze Distribution** – Pie chart updates dynamically.
 ## Dependencies
 
 - **React 19**
